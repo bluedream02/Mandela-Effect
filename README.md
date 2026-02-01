@@ -44,7 +44,7 @@ export OPENAI_BASE_URL="https://api.openai.com/v1"
 
 **Basic evaluation on a single task:**
 ```bash
-python eval.py --task_subset disambiguation_qa --max_samples 2 \
+python eval.py --task_subset disambiguation_qa --max_samples 10 \
   --save_path output/disambiguation_qa_test \
   --model gpt-4o-mini --total_agents 5
 ```
@@ -52,7 +52,7 @@ python eval.py --task_subset disambiguation_qa --max_samples 2 \
 **Evaluate multiple tasks:**
 ```bash
 python eval.py --task_subset "disambiguation_qa,auto_categorization" \
-  --max_samples 5 \
+  --max_samples 10 \
   --save_path output/multi_task_test \
   --model gpt-4o-mini --total_agents 5
 ```
@@ -60,7 +60,7 @@ python eval.py --task_subset "disambiguation_qa,auto_categorization" \
 **Key arguments for `eval.py`:**
 - `--task_subset`: Task(s) to evaluate (comma-separated) (default: all)
 - `--max_samples`: Maximum samples per task (default: all)
-- `--save_path`: Output directory (default: `output_923_2`)
+- `--save_path`: Output directory
 - `--model`: Model name (default: `gpt-4o-mini`)
 - `--total_agents`: Number of agents (default: `5`)
 - `--use_cache`: Use cached results to avoid redundant API calls during development. (default: `True`)
@@ -68,7 +68,7 @@ python eval.py --task_subset "disambiguation_qa,auto_categorization" \
 
 **Evaluate defense strategies:**
 ```bash
-python eval_defense.py --task_subset disambiguation_qa --max_samples 2 \
+python eval_defense.py --task_subset disambiguation_qa --max_samples 10 \
   --save_path output/defense_test \
   --model gpt-4o-mini --total_agents 5
 ```
