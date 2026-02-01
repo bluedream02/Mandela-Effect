@@ -1,7 +1,6 @@
 # [ICLR 2026] When Agents “Misremember” Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 This is the official implementation of **"When Agents 'Misremember' Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems"** (ICLR 2026).
 
@@ -24,6 +23,8 @@ The **Mandela Effect** is a phenomenon where groups collectively misremember ver
 ```bash
 git clone https://github.com/bluedream02/Mandela-Effect.git
 cd Mandela-Effect
+conda create -n mandela python=3.10 -y
+conda activate mandela
 pip install -r requirements.txt
 ```
 
