@@ -1,6 +1,7 @@
 # [ICLR 2026] When Agents “Misremember” Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![EMNLP 2025](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://iclr.cc/) [![arXiv](https://img.shields.io/badge/arXiv-2508.15314-b31b1b.svg)](https://arxiv.org/abs/2508.15314)
+ [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 This is the official implementation of **"When Agents 'Misremember' Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems"** (ICLR 2026).
 
@@ -107,4 +108,13 @@ We thank the authors for their valuable contributions to the community.
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
+@misc{xu2026agentsmisremembercollectivelyexploring,
+      title={When Agents "Misremember" Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems}, 
+      author={Naen Xu and Hengyu An and Shuo Shi and Jinghuai Zhang and Chunyi Zhou and Changjiang Li and Tianyu Du and Zhihui Fu and Jun Wang and Shouling Ji},
+      year={2026},
+      eprint={2602.00428},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.00428}, 
+}
 ``` -->
