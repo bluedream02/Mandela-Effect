@@ -102,7 +102,7 @@ This work builds upon several excellent open-source projects and related works:
 - **Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models** (TMLR) - [Paper](https://arxiv.org/abs/2206.04615) | [GitHub](https://github.com/google/BIG-bench)
 
 We thank the authors for their valuable contributions to the community.
-<!-- 
+
 ## 📖 Citation
 
 If you find this work useful for your research, please cite our paper:
@@ -117,4 +117,4 @@ If you find this work useful for your research, please cite our paper:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2602.00428}, 
 }
-``` -->
+```
