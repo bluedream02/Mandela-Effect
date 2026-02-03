@@ -1,6 +1,6 @@
 # [ICLR 2026] When Agents “Misremember” Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems
 
-[![EMNLP 2025](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://iclr.cc/) [![arXiv](https://img.shields.io/badge/arXiv-2508.15314-b31b1b.svg)](https://arxiv.org/abs/2508.15314)
+[![EMNLP 2025](https://img.shields.io/badge/ICLR-2026-green.svg)](https://iclr.cc/) [![arXiv](https://img.shields.io/badge/arXiv-2602.00428-b31b1b.svg)](https://arxiv.org/abs/2602.00428)
  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 This is the official implementation of **"When Agents 'Misremember' Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems"** (ICLR 2026).
